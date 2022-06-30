@@ -1,23 +1,21 @@
 <!DOCTYPE html>  
 <html lang="en">  
 <head> 
-<title>Online Lua Executor</title>
+<title>Alem's Lua Executor</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"/>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<meta name="description" content="Online Lua Executor - The best online Lua programming executor and editor provides an easy to use and simple Integrated Development Environment (IDE) for the students and working professionals to Edit, Save, Execute and Share Lua source code with in your browser itself." />
-<base href="http://alem-dev.com">
-<link rel="shortcut icon" href="" type="image/x-icon" />
-<link rel="canonical" href="" />
+<meta name="description" content="Alem's Lua Executor - The best online Lua programming compiler and editor provides an easy to use and simple Integrated Development Environment (IDE) for the students and working professionals to Edit, Save, Compile, Execute and Share Lua source code with in your browser itself." />
+<base href="https://www.tutorialspoint.com">
+<link rel="shortcut icon" href="https://discord.com/channels/@me/885645251337924618/992060353045331979" type="image/x-icon" />
+<link rel="canonical" href="https://www.tutorialspoint.com/execute_lua_online.php" />
 <link rel="stylesheet" type="text/css" href="https://www.tutorialspoint.com/themes/easyui/gray/easyui.css">
 <link rel="stylesheet" type="text/css" href="https://www.tutorialspoint.com/cg/style.css?v=106">
 <script id="adv" data-cfasync="false">(function(w, d) { var s = d.createElement('script'); s.src = '//cdn.adpushup.com/40046/adpushup.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
 </head>
 <body class="body easyui-layout" id="cc" style="visibility:hidden;">
 <div class="north" id="north" data-options="region:'north'">
-   <a href="codingground.htm"><img src="" alt="Online Lua Executor" class="logo" id="logo"/></a>
-   <h1 class="title" id="main-title">Online Lua Executor</h1>
-   <div class="easyui-panel main-menu" id="main-menu" data-options="border:false">
+   <h1 class="title" id="main-title">...Alem's Lua Executor</h1>
   </div>
 </div>
 <div id="loading"><div class="loader"></div></div>
@@ -93,22 +91,16 @@
    <div onclick="setEditorType('vim');"  data-options="iconCls:'fal fa-v fa-sm'">Vim Editor</div>
    <div onclick="setEditorType('emacs');"  data-options="iconCls:'fal fa-e fa-sm'">Emacs Editor</div>
 </div>
-<div id="mm4" style="width:200px;">
-     <div onclick="createProject()" data-options="iconCls:'fal fa-arrow-up-right-from-square fa-sm'"><span>Open New Project</span></div>
-     <div onclick="saveProject();" data-options="iconCls:'fal fa-cloud-arrow-down fa-sm'">Save Project</div>
-     <div onclick="saveAsNewProject();" data-options="iconCls:'fal fa-cloud-arrow-down fa-sm'">Save As New Project</div>
-     <div onclick="generateShareLink();" data-options="iconCls:'fal fa-share-nodes fa-sm'">Share Project</div>
-     <div id="searchproject" onclick="openSearchProject();" data-options="iconCls:'fal fa-magnifying-glass fa-sm'">Search Project</div>
 </div><!--HEADER ENDS -->
 
 <div data-options="region:'west',split:true" id="west" style="width:45%;"><!--CODE AREA STARTS -->
 <div class="easyui-tabs" data-options="fit:true,border:false,tools:'#tab-tools',toolPosition:'left'" id="codebox" style="width:40%;">
 <div title="Source Code" id="editor">print(&quot;Hello World!&quot;)</div>
 <div title="Help" id="help" data-options="icon:'fal fa-circle-question fa-lg'">
-<h1>Online Lua Executor (Lua v5.3.4)</h1>
-<p><b>Online Lua Executor (Lua v5.3.4)</b> helps you to Edit, Run and Share your Lua Code directly from your browser. This development environment provides you version Lua v5.3.4.</p>
+<h1>Alem's Lua Executor (Lua v5.3.4)</h1>
+<p><b>Alem's Lua Executor (Lua v5.3.4)</b> helps you to Edit, Run and Share your Lua Code directly from your browser. This development environment provides you version Lua v5.3.4.</p>
 <h2>How to give program Input?</h2>
-<p>The latest version of Coding Ground allows to provide program input at run time from the termnial window exactly the same way as you run your program at your own computer. So simply run a program and provide your program input (if any) from the terminal window available in the right side.</p>
+<p>The latest version of Alem's Lua Executor allows to provide program input at run time from the termnial window exactly the same way as you run your program at your own computer. So simply run a program and provide your program input (if any) from the terminal window available in the right side.</p>
 <h2>Keyboard Shortcuts</h2>
 <table id="machelp" style="width:100%;">
 <tr><th>Shortcut</th><th>Description</th></tr>
@@ -129,24 +121,19 @@
 <table id="winhelp" style="width:100%;">
 <tr><th>Shortcut</th><th>Description</th></tr>
 <tr><td style="width:20%">Ctrl + Enter</td><td>Run the program</td></tr>
-<tr><td style="width:20%">Shift + Ctrl + S</td><td>Save As Project</td></tr>
 <tr><td style="width:20%">Ctrl + Z</td><td>Undo Editing</td></tr>
 <tr><td style="width:20%">Ctrl + Y</td><td>Redo Editing</td></tr>
 <tr><td style="width:20%">Ctrl + A</td><td>Select All Text</td></tr>
 <tr><td style="width:20%">Ctrl + X</td><td>Cut Selected Text</td></tr>
 <tr><td style="width:20%">Ctrl + C</td><td>Copy Selected Text</td></tr>
 <tr><td style="width:20%">Ctrl + V</td><td>Paste Copied Text</td></tr>
-<tr><td style="width:20%">Ctrl + F</td><td>Search Text</td></tr>
-<tr><td style="width:20%">Ctrl + H</td><td>Replace Text</td></tr>
 </table>
+</div>
 </div>
 </div>
 <div id="tab-tools" style="border-top:0px; border-right:0px;">
    <a href="javascript:void(0)" id="execute"  class="easyui-linkbutton" data-options="plain:true,iconCls:'fal fa-gears fa-lg'" style="white-space:nowrap;">&nbsp;<b>Execute</b></a>
    <span style="white-space:nowrap;" class="execute_space" id="space1">|</span>
-   <a href="javascript:void(0)" id="beautify"  class="easyui-linkbutton" data-options="plain:true,iconCls:'fal fa-display-code fa-lg'" style="white-space:nowrap;">&nbsp;<b>Beautify</b></a>
-   <span style="white-space:nowrap;" class="execute_space" id="space2">|</span>
-   <a href="javascript:void(0)" id="share"  onclick="generateShareLink()" class="easyui-linkbutton" data-options="plain:true,iconCls:'fal fa-share-nodes fa-lg'" style="white-space:nowrap;"><b>Share</b></a>
 </div>
 <!-- CENTER STARTS -->
 <div id="center" data-options="region:'center',iconCls:'fal fa-rectangle-terminal fa-sm', title:'Terminal', split:true, tools:[{iconCls:'icon-clean', handler:function(){clearTerminal()}}]" style="width:45%;border-bottom: 0px;">
@@ -155,23 +142,10 @@
 <iframe id="result" style="height:100%; width:100%; border:0px;"></iframe>
 </div>
 </div><!--CENTER ENDS -->
-<!--EAST STARTS -->
-<div id="east" data-options="region:'east', title:'&nbsp;&nbsp;&nbsp;&nbsp;Advertisement', collapsible:false" style="overflow: hidden; width: 122px">
-<div id="d5686fb9-4489-48e0-9f5b-5691c7936f83" class="_ap_apex_ad">
-<script>
-var adpushup = window.adpushup = window.adpushup || {};
-adpushup.que = adpushup.que || [];
-adpushup.que.push(function() {
-adpushup.triggerAd("d5686fb9-4489-48e0-9f5b-5691c7936f83");
-});
-</script>
-</div>
-</div>
-<!--EAST ENDS -->
 <div id="south" data-options="region:'south',collapsible:true, split:true, tools:[{ iconCls:'icon-h-terminal', handler:function(){setTerminalMode('V')}}, {iconCls:'icon-clean', handler:function(){clearTerminal()}}]" style="height:0%;">
 </div><!--SOUTH ENDS -->
 <script>
-var HOME = "http://alem-dev.com";
+var HOME = "https://www.tutorialspoint.com";
 var langid = "lua";
 var filename = "main.lua";
 var mainfile = "main.lua";
@@ -179,8 +153,8 @@ var modename = "lua";
 var version = "Lua v5.3.4";
 var opt = "new";
 var projectid = "";
-var projecttitle = "Online Lua Executor";
-var sessionId = "62bd9fc27690c";
+var projecttitle = "Online Lua Compiler";
+var sessionId = "62bda44acbcc2";
 </script>
 <script src="https://kit.fontawesome.com/d10db5a94a.js" crossorigin="anonymous"></script>
 <script src="https://www.tutorialspoint.com/themes/easyui/jquery.min.js"></script>
